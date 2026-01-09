@@ -39,11 +39,11 @@ const Content = (props) => {
     )
   }
 
-const Total = () => {
+const Total = (props) => {
   return (
-    
-    <div>Total number of exercises määrä={exercises1 + exercises2 + exercises3}</div>
-    
+    <div>
+      <p>Total number of exercises {props.exercises1 + props.exercises2 + props.exercises3}</p>
+    </div>
     )
 }
 
